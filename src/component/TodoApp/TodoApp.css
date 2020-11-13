@@ -1,5 +1,61 @@
 body{
 
+    
     margin: 0;    
+    background-color:rgb(44, 4, 48) ;    
+    font-family:sans-serif;
    
+}
+
+h1{
+    color: rgb(56, 27, 55);
+}
+.todo-container{
+
+    width: 350px;
+   margin: auto;
+   margin-top: 30px;
+   
+
+}
+.input-section{
+
+    background-color:purple;
+    padding: 18px;
+    border-radius: 5px;
+
+}
+
+.input-section input{
+
+     color: white;
+    background-color: rgb(110, 3, 101);
+    border-radius: 5px;
+    border: 1px solid rgb(197, 5, 181);
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+
+ul{
+   
+  padding: 0; 
+   text-align: left;
+}
+ul li{
+
+    display: flex;
+    color: white;
+    list-style:none;
+    background-color:purple;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+ul li i{
+text-align: right;
+flex: 1;
+cursor: pointer;  
 }
